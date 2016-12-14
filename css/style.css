@@ -27,7 +27,7 @@ html {
 }
 blockquote {
 	font-size:24px;
-	background:url("../Content/images/blockqoute.png") no-repeat 30px 17px;
+	background:url("../images/blockqoute.png") no-repeat 30px 17px;
 	padding:43px 35px 47px 174px;
 	border:1px solid #23def7
 }
@@ -765,22 +765,22 @@ noscript h2 {
 	top:10px;
 }
 .htlfndr-custom-select.htlfndr-language li[data-value="eng"]:before,.htlfndr-custom-select.htlfndr-language .eng:before {
-	background-image:url("../Content/images/icon-flag-britain.png")
+	background-image:url("../images/icon-flag-britain.png")
 }
 .htlfndr-custom-select.htlfndr-language li[data-value="ger"]:before,.htlfndr-custom-select.htlfndr-language .ger:before {
-	background-image:url("../Content/images/icon-flag-german.png")
+	background-image:url("../images/icon-flag-german.png")
 }
 .htlfndr-custom-select.htlfndr-language li[data-value="jap"]:before,.htlfndr-custom-select.htlfndr-language .jap:before {
-	background-image:url("../Content/images/icon-flag-japan.png")
+	background-image:url("../images/icon-flag-japan.png")
 }
 .htlfndr-custom-select.htlfndr-language li[data-value="ita"]:before,.htlfndr-custom-select.htlfndr-language .ita:before {
-	background-image:url("../Content/images/icon-flag-italy.png")
+	background-image:url("../images/icon-flag-italy.png")
 }
 .htlfndr-custom-select.htlfndr-language li[data-value="fre"]:before,.htlfndr-custom-select.htlfndr-language .fre:before {
-	background-image:url("../Content/images/icon-flag-french.png")
+	background-image:url("../images/icon-flag-french.png")
 }
 .htlfndr-custom-select.htlfndr-language li[data-value="rus"]:before,.htlfndr-custom-select.htlfndr-language .rus:before {
-	background-image:url("../Content/images/icon-flag-russian.png")
+	background-image:url("../images/icon-flag-russian.png")
 }
 .htlfndr-top-header .navbar-default .navbar-toggle:hover,.htlfndr-under-header .navbar-default .navbar-toggle:hover,.htlfndr-top-header .navbar-default .navbar-toggle:focus,.htlfndr-under-header .navbar-default .navbar-toggle:focus {
 	background-color:#23def7
@@ -894,20 +894,20 @@ select {
 	margin-bottom:.6rem
 }
 .htlfndr-form-in-slider #htlfndr-input-1:before {
-	background-image:url("../Content/images/icon-location.png");
+	background-image:url("../images/icon-location.png");
 	background-size:100% auto
 }
 .htlfndr-form-in-slider #htlfndr-input-date-in:before {
-	background-image:url("../Content/images/icon-date-in.png");
+	background-image:url("../images/icon-date-in.png");
 	background-size:100% auto
 }
 .htlfndr-form-in-slider #htlfndr-input-date-out:before {
-	background-image:url("../Content/images/icon-date-out.png");
+	background-image:url("../images/icon-date-out.png");
 	background-size:100% auto;
 	transform:none
 }
 .htlfndr-form-in-slider #htlfndr-input-4:before {
-	background-image:url("../Content/images/icon-person.png");
+	background-image:url("../images/icon-person.png");
 	top:7px
 }
 .htlfndr-form-in-slider .htlfndr-clear-datepicker::before {
@@ -1432,7 +1432,7 @@ a.htlfndr-read-more-button:focus:after,a.htlfndr-read-more-button:hover:after,a.
 	color:#07b0c6
 }
 .htlfndr-categories-portfolio {
-	background:#fff url('../Content/images/background-world-map.png') no-repeat 0 60px;
+	background:#fff url('../images/background-world-map.png') no-repeat 0 60px;
 	border-bottom:1px solid #dfdfdf;
 	border-top:1px solid #dfdfdf;
 	padding-bottom:8.2rem
@@ -1528,7 +1528,7 @@ a.htlfndr-read-more-button:focus:after,a.htlfndr-read-more-button:hover:after,a.
 	transition-delay:.1s
 }
 .htlfndr-category-box .category-properties:before {
-	background:url('../Content/images/icon-location-white.png') no-repeat;
+	background:url('../images/icon-location-white.png') no-repeat;
 	-webkit-background-size:cover;
 	background-size:cover;
 	content:'';
@@ -1585,22 +1585,22 @@ a.htlfndr-read-more-button:focus:after,a.htlfndr-read-more-button:hover:after,a.
 	-webkit-background-size:150%
 }
 .htlfndr-icon-flag.flag-germany {
-	background-image:url('../Content/images/icon-flag-german.png')
+	background-image:url('../images/icon-flag-german.png')
 }
 .htlfndr-icon-flag.flag-britain {
-	background-image:url('../Content/images/icon-flag-britain.png')
+	background-image:url('../images/icon-flag-britain.png')
 }
 .htlfndr-icon-flag.flag-italy {
-	background-image:url('../Content/images/icon-flag-italy.png')
+	background-image:url('../images/icon-flag-italy.png')
 }
 .htlfndr-icon-flag.flag-france {
-	background-image:url('../Content/images/icon-flag-french.png')
+	background-image:url('../images/icon-flag-french.png')
 }
 .htlfndr-icon-flag.flag-russia {
-	background-image:url('../Content/images/icon-flag-russian.png')
+	background-image:url('../images/icon-flag-russian.png')
 }
 .htlfndr-icon-flag.flag-japan {
-	background-image:url('../Content/images/icon-flag-japan.png')
+	background-image:url('../images/icon-flag-japan.png')
 }
 .htlfndr-visitor-column {
 	margin-bottom:30px
@@ -1747,7 +1747,7 @@ a.htlfndr-read-more-button:focus:after,a.htlfndr-read-more-button:hover:after,a.
 	width:100%
 }
 .htlfndr-footer form input[type="submit"] {
-	background:#08c1da url("../Content/images/icon-submit-check.png") no-repeat 4.5px 6px;
+	background:#08c1da url("../images/icon-submit-check.png") no-repeat 4.5px 6px;
 	background-size:63% auto;
 	border:0;
 	border-radius:50%;
@@ -2363,12 +2363,12 @@ a.htlfndr-read-more-button:focus:after,a.htlfndr-read-more-button:hover:after,a.
 	padding:0 1.5rem 3.5rem 1.5rem
 }
 #htlfndr-input-1:before {
-	background-image:url("../Content/images/icon-location-blue.png");
+	background-image:url("../images/icon-location-blue.png");
 	background-size:52% auto;
 	-webkit-background-size:52% auto
 }
 #htlfndr-input-date-in:before,#htlfndr-input-date-out:before {
-	background-image:url("../Content/images/icon-date-blue.png");
+	background-image:url("../images/icon-date-blue.png");
 	background-size:63% auto;
 	-webkit-background-size:63% auto
 }
@@ -2704,17 +2704,17 @@ a.htlfndr-read-more-button:focus:after,a.htlfndr-read-more-button:hover:after,a.
 	border:1px solid #e0e0e0
 }
 .htlfndr-sidebar-in-top #htlfndr-input-1:before {
-	background-image:url("../Content/images/icon-location-blue.png");
+	background-image:url("../images/icon-location-blue.png");
 	background-size:52% auto;
 	-webkit-background-size:52% auto
 }
 .htlfndr-sidebar-in-top #htlfndr-input-date-in:before,.htlfndr-sidebar-in-top #htlfndr-input-date-out:before {
-	background-image:url("../Content/images/icon-date-blue.png");
+	background-image:url("../images/icon-date-blue.png");
 	background-size:63% auto;
 	-webkit-background-size:63% auto
 }
 .htlfndr-sidebar-in-top #htlfndr-input-4:before {
-	background-image:url("../Content/images/icon-person-blue.png");
+	background-image:url("../images/icon-person-blue.png");
 	background-size:75% auto;
 	-webkit-background-size:75% auto
 }
@@ -4357,16 +4357,16 @@ input.incorrect,textarea.incorrect {
 	width:63px
 }
 #htlfndr-radio-card label[for="htlfndr-visa"] {
-	background-image:url("../Content/images/icon-card-visa.png")
+	background-image:url("../images/icon-card-visa.png")
 }
 #htlfndr-radio-card label[for="htlfndr-paypal"] {
-	background-image:url("../Content/images/icon-card-paypal.png")
+	background-image:url("../images/icon-card-paypal.png")
 }
 #htlfndr-radio-card label[for="htlfndr-mastercard"] {
-	background-image:url("../Content/images/icon-card-mastercard.png")
+	background-image:url("../images/icon-card-mastercard.png")
 }
 #htlfndr-radio-card label[for="htlfndr-amex"] {
-	background-image:url("../Content/images/icon-card-amex.png");
+	background-image:url("../images/icon-card-amex.png");
 	margin-right:0
 }
 #htlfndr-radio-card label:hover,#htlfndr-radio-card label.ui-state-active {
@@ -4974,8 +4974,8 @@ body>#htlfndr-sing-in,body>#htlfndr-sing-up,#htlfndr-edit-card,#htlfndr-add-card
 #htlfndr-edit-card .htlfndr-content-card,#htlfndr-sing-in .htlfndr-content-card,#htlfndr-sing-up .htlfndr-content-card,.htlfndr-sing-in-page .htlfndr-content-card,.htlfndr-sing-up-page .htlfndr-content-card,#htlfndr-add-card .htlfndr-content-card {
 	background:#fff;
 	position:relative;
-	margin:100px auto;
-	width:615px;
+	margin:20px auto;
+	width:800px;
 	padding:7px 15px
 }
 #htlfndr-edit-card .htlfndr-content-card .htlfndr-card-title,#htlfndr-sing-in .htlfndr-content-card .htlfndr-card-title,#htlfndr-sing-up .htlfndr-content-card .htlfndr-card-title,.htlfndr-sing-in-page .htlfndr-content-card .htlfndr-card-title,.htlfndr-sing-up-page .htlfndr-content-card .htlfndr-card-title,#htlfndr-add-card .htlfndr-content-card .htlfndr-card-title {
@@ -4995,12 +4995,13 @@ body>#htlfndr-sing-in,body>#htlfndr-sing-up,#htlfndr-edit-card,#htlfndr-add-card
 	font-size:30px
 }
 #htlfndr-edit-card .htlfndr-content-card h4,#htlfndr-sing-in .htlfndr-content-card h4,#htlfndr-sing-up .htlfndr-content-card h4,.htlfndr-sing-in-page .htlfndr-content-card h4,.htlfndr-sing-up-page .htlfndr-content-card h4,#htlfndr-add-card .htlfndr-content-card h4 {
-	margin-bottom:6px;
+	margin-bottom:3px;
 	text-transform:capitalize;
-	font-size:18px
+	font-size:18px;
+
 }
 #htlfndr-edit-card .htlfndr-content-card form,#htlfndr-sing-in .htlfndr-content-card form,#htlfndr-sing-up .htlfndr-content-card form,.htlfndr-sing-in-page .htlfndr-content-card form,.htlfndr-sing-up-page .htlfndr-content-card form,#htlfndr-add-card .htlfndr-content-card form {
-	padding:28px 38px
+	padding-top:50px 38px
 }
 #htlfndr-edit-card .htlfndr-content-card form input,#htlfndr-sing-in .htlfndr-content-card form input,#htlfndr-sing-up .htlfndr-content-card form input,.htlfndr-sing-in-page .htlfndr-content-card form input,.htlfndr-sing-up-page .htlfndr-content-card form input,#htlfndr-add-card .htlfndr-content-card form input {
 	border-radius:10px;
@@ -5024,7 +5025,7 @@ body>#htlfndr-sing-in,body>#htlfndr-sing-up,#htlfndr-edit-card,#htlfndr-add-card
 	border:1px solid #ececec;
 	border-radius:50px;
 	color:#c4c4c4;
-	margin:9px 9px 7px 0;
+	margin:5px 9px 7px 0;
 	padding:5px 5px 5px 6px;
 	font-size:10px;
 	cursor:pointer
@@ -5595,7 +5596,7 @@ body>#htlfndr-sing-in,body>#htlfndr-sing-up,#htlfndr-edit-card,#htlfndr-add-card
 	margin-bottom:2px
 }
 .htlfndr-about-us .htlfndr-creative-team .htlfndr-video-block .htlfndr-button-play {
-	background:rgba(0,0,0,0) url("../Content/images/btn-play.png") no-repeat scroll center top;
+	background:rgba(0,0,0,0) url("../images/btn-play.png") no-repeat scroll center top;
 	display:block;
 	height:183px;
 	margin:0 auto;

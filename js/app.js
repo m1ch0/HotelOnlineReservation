@@ -1,19 +1,50 @@
-var app = angular.module('OHR', ['ngRoute'])
 
-app.config(['$routeProvider', '$httpProvider', function($routeProvider, $httpProvider){
+var app = angular.module('OHR', ['ngRoute']);
+
+
+
+app.config(['$routeProvider', function($routeProvider){
     $routeProvider
         .when("/",{
-            templateUrl: "template/Home.html",
+            templateUrl: "template/Home.html"
         })
-        /*.when("/register",{
-            templateUrl: "directives/register.html",
-            controller: "UserController as userCtrl"
-
+        .when("/korisnik",{
+            templateUrl: "template/Korisnik.html"
         })
-        .when("/login",{
-            templateUrl:"directives/login.html",
-            controller: "UserController as userCtrl"
+        .when("/direktor",{
+            templateUrl:"template/Direktor.html"
         })
+        .when("/prijaviproblem",{
+            templateUrl: "template/PrijaviProblem.html"
+        })
+        .when("/tehnickapodrskaodgovor",{
+            templateUrl:"template/TehnickaPodrskaOdgovor.html"
+        })
+        .when("/baranjezarevalidiranje",{
+            templateUrl:"template/BaranjeZaRevalidiranje.html"
+        })
+        .when("/prikazihotelzavalidator",{
+            templateUrl:"template/PrikaziHotelZaValidator.html"
+        })
+        .when("/tehnickapodrska",{
+            templateUrl:"template/TehnickaPodrska.html"
+        })
+        .when("/validator",{
+            templateUrl:"template/Validator.html"
+        })
+        .when("/admin",{
+            templateUrl:"template/Admin.html"
+        })
+        .when("/searchresult",{
+            templateUrl:"template/searchresults.html"
+        })
+        .when("/payment",{
+            templateUrl:"template/Payment.html"
+        })
+        .when("/chosenHotel",{
+            templateUrl:"template/chosenHotel.html"
+        })
+        /*
         .when("/history",{
             templateUrl:"directives/history.html",
             controller:"UserController as userCtrl"
@@ -73,8 +104,8 @@ app.config(['$routeProvider', '$httpProvider', function($routeProvider, $httpPro
         .when("/users",{
             templateUrl:"directives/users.html",
             controller: "UserController as userCtrl"
-        })*/.otherwise({
+        }).otherwise({
          redirectTo: "/"
 
-    })
+    })*/
 }]);
